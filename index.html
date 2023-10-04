@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assginment 5</title>
+</head>
+
+<body style="font-size: 40px;">
+
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        // 1-1
+        var num1 = 5;
+        var num2 = 3;
+        var sum = num1 + num2;
+        document.write("+\n", sum, "<br>-\n")
+
+
+        // 2-1
+        var num1 = 5;
+        var num2 = 3;
+        var sub = num1 - num2;
+        document.write(sub, "<br>*\n")
+
+
+        // 3-1
+        var num1 = 5;
+        var num2 = 3;
+        var mul = num1 * num2;
+        document.write(mul, "<br> /\n")
+
+        // 4-1
+        var num1 = 5;
+        var num2 = 3;
+        var div = num1 / num2;
+        document.write(div, "<br> %\n")
+
+        // 5-1
+        var num1 = 5;
+        var num2 = 3;
+        var modu = num1 % num2;
+        document.write(modu, "<br><br>")
+
+
+
+
+
+        // 1-2
+        var a1;
+        document.write("Value after variable declaration is: ", a1, "<br>");
+        a1 = 5;
+        document.write("Inital value: ", a1, "<br>");
+        a1++;
+        document.write("Value after incremnet is ", a1, "<br>");
+        a1 += 7;
+        document.write("Value after addition is ", a1, "<br>");
+        a1--;
+        document.write("Value after decremnet is ", a1, "<br>");
+        var remain = a1 % 3;
+        document.write("The remainder is: ", remain, "<br><br>");
+
+
+
+        // 1-3
+
+        var num1 = 600;
+        var num2 = 5;
+        var multi = num1 * num2;
+        document.write("Total cost to buy 5 tickets to a movie is ", multi, "PKR<br><br>")
+
+
+
+        // 1-4
+        document.write("Table of 4")
+        var table = 4;
+        for (var i = 1; i <= 10; i++) {
+
+            document.write("<li>", table + " x " + i + " = " + table * i + "</li>");
+        }
+
+
+
+
+
+        // 1-5
+        var celsius_temp = 25
+        var fahrenheit_temp = (celsius_temp * 9 / 5) + 32;
+        document.write("<br><br>",celsius_temp + "<sup>0</sup>C is " + fahrenheit_temp + "<sup>o</sup>F <br>");
+
+
+        var fahrenheit_temp2 = 70;
+        var celsius_temp2 = (fahrenheit_temp2 - 32) * 5 / 9;
+        document.write(fahrenheit_temp2 + "<sup>0</sup>F is " + celsius_temp2 + "<sup>o</sup>C <br> <br>")
+
+
+
+
+        // 1-6
+        var item1 = 650;
+        var quantity1 = 3;
+        var item2 = 100;
+        var quantity2 = 7;
+
+        var total = (item1 * quantity1) + (item2 * quantity2);
+
+        document.write("Price of item 1 is "+ item1 + "<br>")
+        document.write("Quantity of item 1 is " + quantity1 + "<br>")
+        document.write("Price of item 2 is "+ item2 + "<br>")
+        document.write("Quantity of item 2 is " + quantity2 +"<br><br>")
+        document.write("Total cost of your order is " + total + "<br><br>")
+
+
+
+
+
+        // 1-7
+        var num1 = 980;
+        var num2 = 894;
+        var perc = (num2 / num1) * 100;
+
+        document.write("Total Marks : " + num1 + "<br>")
+        document.write("Marks Obtained : " + num2 + "<br>")
+        document.write("Percentage : " + perc + "<br><br><br>")
+
+
+
+
+
+        // 1-8
+        var pkr = 300;
+        var dollar = 10;
+        var pkr2 = 80;
+        var riyal = 25;
+
+        var pkr_Dollar = pkr * dollar;
+        var pkr_Riyal = pkr2 * riyal;
+        var total = pkr_Dollar + pkr_Riyal;
+        
+        document.write("1 PKR Convert 10 $ is = " + pkr_Dollar + "<br>")
+        document.write("1 PKR Convert 25 Riyal is = "+ pkr_Riyal + "<br>")
+        document.write("Total Currency in PKR is = "+ total + "<br><br><br>")
+
+
+
+
+        // 1-9
+        var num = 10;
+        var result = (num + 5) * 10 / 2;
+        document.write("The Total Results is : " + result + "<br><br>")
+
+
+
+        // 1-10
+        var current = 2023;
+        var birth = 2003;
+
+        var age = current - birth;
+
+        document.write("Current Year is = " + current + "<br>")
+        document.write("Birth Year is = " + birth + "<br>")
+        document.write("Your Age is = " + age + "<br><br>")
+
+
+
+
+        // 1-11
+            var pi = 3.142;
+            var radius = 20;
+            var circum = 2 * pi * radius;
+
+            var area = 3.142 * (radius * radius);
+
+            document.write("Radius of the Circle is = " + radius + "<br>");
+            document.write("The Cercumference is = " + circum + "<br>");
+            document.write("The Area is = " + area + "<br><br><br>");
+
+
+
+            // 1-12
+            var snack = "Chocolate chip"
+            var currentAge = 15;
+            var maxAge = 65;
+            var amountPerDay = 3;
+
+            var total = (maxAge - currentAge) * amountPerDay;
+
+            document.write("Favorite Snack = " + snack + "<br>");
+            document.write("Current Age = " + currentAge + "<br>");
+            document.write("Estimated Maxmium Age = " + maxAge + "<br>");
+            document.write("Amount of Snacks Per Day = " + amountPerDay + "<br>");
+            document.write("You will Need " + total + " chips to last you until the ripe old age of " + maxAge + "<br> <br>")
+   
+
+
+   </script>
+</body>
+
+</html>
